@@ -30,12 +30,16 @@ section {
 section > article {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
 }
 
 section > article > div {
     width: 80px;
     margin-bottom: 30px;
+}
+
+section > article > div:nth-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 section > article > div > img {

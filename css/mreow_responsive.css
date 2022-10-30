@@ -13,6 +13,11 @@
         gap: 1rem;
     }
 
+    section > article > div:nth-child(2) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
     section > article > div {
         width: 350px;
         height: 200px;

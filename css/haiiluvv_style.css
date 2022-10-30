@@ -46,12 +46,12 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
 }
 
 .text > div {
     padding: 0px;
     height: max-content;
+    margin-bottom: 20px;
     width: 85%;
     background-color: #7aa9ff;
     padding: 10px 8px 10px 8px;
