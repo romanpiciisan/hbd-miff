@@ -1,10 +1,10 @@
 @media only screen and (max-width: 600px) {
     body {
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
     section {
-        margin-top: 80px;
+        margin-top: 20px;
     }
 
     section > div {
@@ -19,25 +19,13 @@
 
     a {
         width: 95%;
-        margin-top: 100px;
+        margin-top: 20px;
     }
 }
 
 @media only screen and (max-width: 380px) {
-    body {
-        margin-top: 20px;
-    }
-
-    section {
-        margin-top: 20px;
-    }
-
     section > div > p {
         margin-top: 10px;
         margin-bottom: 10px;
-    }
-
-    a {
-        margin-top: 20px;
     }
 }
