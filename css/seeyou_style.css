@@ -1,0 +1,83 @@
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #ffd6dc;
+}
+
+p {
+    font-size: 40px;
+    color: #70a1ff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p > span {
+    color: #ff6b81;
+}
+
+section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > div {
+    width: 50%;
+    height: max-content;
+    background-color: #7aa9ff;
+    padding: 10px 8px 10px 8px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px rgba(0,0,0,0.15);
+}
+
+section > div > p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: justify;
+}
+
+section > div > p > span {
+    color: #e84393;
+}
+
+section > div > p:first-child,
+section > div > p:last-child {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a {
+    margin-top: 60px;
+    width: 51%;
+}
+
+a > button {
+    width: 100%;
+    height: max-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #70a1ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 1px rgba(0,0,0,0.15);
+}
+
+a > button > div {
+    width: 40px;
+    height: 35px;
+}
+
+a > button > div > img {
+    width: 100%;
+    height: 100%;
+}

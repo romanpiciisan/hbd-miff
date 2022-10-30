@@ -1,0 +1,44 @@
+@media only screen and (max-width: 600px) {
+    body {
+        margin-top: 30px;
+    }
+
+    section {
+        margin-top: 20px;
+        gap: 1rem;
+    }
+
+    section > article {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    section > article > div {
+        width: 350px;
+        height: 200px;
+    }
+
+    section > p {
+        width: 350px;
+        font-size: 15px;
+    }
+
+    a {
+        margin-top: 20px;
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    body {
+        margin-top: 10px;
+    }
+
+    section > article > div {
+        height: 180px;
+    }
+
+    a {
+        margin-bottom: 20px;
+    }
+}

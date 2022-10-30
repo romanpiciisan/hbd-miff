@@ -1,0 +1,43 @@
+@media only screen and (max-width: 600px) {
+    body {
+        margin-top: 50px;
+    }
+
+    section {
+        margin-top: 80px;
+    }
+
+    section > div {
+        width: 90%;
+    }
+
+    section > div > p {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    a {
+        width: 95%;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    body {
+        margin-top: 20px;
+    }
+
+    section {
+        margin-top: 20px;
+    }
+
+    section > div > p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    a {
+        margin-top: 20px;
+    }
+}

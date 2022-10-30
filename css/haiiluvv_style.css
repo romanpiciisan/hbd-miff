@@ -1,0 +1,125 @@
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #ffd6dc;
+}
+
+p {
+    font-size: 40px;
+    color: #70a1ff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p > span {
+    color: #ff6b81;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.photo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    height: 370px;
+}
+
+.photo > div > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.text > div {
+    padding: 0px;
+    height: max-content;
+    width: 85%;
+    background-color: #7aa9ff;
+    padding: 10px 8px 10px 8px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px rgba(0,0,0,0.15);
+}
+
+.text > div > p {
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+}
+
+.text > div > p > span {
+    color: #e84393;
+}
+
+.text > a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ucapan {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 0px;
+    height: max-content;
+    width: 87%;
+    background-color: #7aa9ff;
+    padding: 10px 8px 10px 8px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px rgba(0,0,0,0.15);
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.text > a > div > button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #7aa9ff;
+    border: none;
+}
+
+.text > a > div > p {
+    color: white;
+    font-size: 17px;
+}
+
+.text > a > div > p > span {
+    color: #ff6b81;
+}
+
+button > div {
+    width: 35px;
+    height: 25px;
+}
+
+button > div > img {
+    width: 100%;
+    height: 100%;
+}
